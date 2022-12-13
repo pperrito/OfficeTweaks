@@ -28,4 +28,7 @@ def menu():
 
 
 if __name__ == "__main__":
-    menu()
+    try:
+        menu()
+    except KeyboardInterrupt:
+        print("Завершение работы")
